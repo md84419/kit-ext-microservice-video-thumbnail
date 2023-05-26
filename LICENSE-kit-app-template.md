@@ -1,3 +1,4 @@
+
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -186,11 +187,7 @@
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
 
-   Copyright (c), ROBOTICA MACHINE LEARNING LIMITED, 2023.
-
-   Portions Copyright 2022 NVIDIA CORPORATION:
-
-   - This extension is based on the NVIDIA Kit App template: https://github.com/NVIDIA-Omniverse/kit-app-template
+   Copyright 2022 NVIDIA CORPORATION
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
