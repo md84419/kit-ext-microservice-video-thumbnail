@@ -1,0 +1,31 @@
+[package]
+authors = ["Robotica"]
+version = "0.0.1"
+title = "robotica service video thumbnail"
+description="A simple python extension example to use as a starting point for your extensions."
+readme  = "docs/README.md"
+repository = ""
+category = "services"
+keywords = ["kit", "service", "core", "example"]
+# icon = "data/icon.png"
+preview_image = "data/preview.png"
+changelog="docs/CHANGELOG.md"
+
+# Use omni.ui to build simple UI
+[dependencies]
+# "omni.kit.uiapp" = {}
+"omni.services.core" = {}
+
+[python.pipapi]
+requirements = ['fastapi']
+use_online_index = true
+
+# Main python module this extension provides, it will be publicly available as "import robotica.service.video.thumbnail".
+[[python.module]]
+name = "robotica.service.video.thumbnail"
+
+[[test]]
+# Extra dependencies only to be used during test run
+dependencies = [
+    "omni.kit.ui_test" # UI testing extension
+]
