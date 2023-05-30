@@ -17,8 +17,17 @@ changelog="docs/CHANGELOG.md"
 "omni.services.core" = {}
 
 [python.pipapi]
-requirements = ['fastapi']
+requirements = ['fastapi', 'moviepy']
 use_online_index = true
+
+[settings.exts.'robotica.video.thumbnail']
+title = "Robotica Video Thumbnail Service"
+description = "This REST service generates thumbnail videos."
+contact.name = "Robotica Machine Learning Ltd"
+contact.url = "http://robotica.media/contact/"
+contact.email = "licensing@robotica.media"
+license.name = "License"
+license.url = "http://robotica.media/licenses/LICENSE-AVComprehend"
 
 # Main python module this extension provides, it will be publicly available as "import robotica.service.video.thumbnail".
 [[python.module]]
